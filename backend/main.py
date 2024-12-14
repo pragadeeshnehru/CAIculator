@@ -5,7 +5,6 @@ from mangum import Mangum
 
 app = FastAPI()
 
-# CORS Middleware (allow all origins for now)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=['*'],
